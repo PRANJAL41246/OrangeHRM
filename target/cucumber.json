@@ -1,0 +1,86 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-24T17:26:08.176Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2388102600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Automation.StepDef.Hooks.precondition()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Login the valid credential",
+        "description": "",
+        "id": "validation-of-login-scenario;login-the-valid-credential",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3582419400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open the browser",
+            "match": {
+              "location": "com.Automation.StepDef.LoginSteps.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 814138300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter valid username \"username\" and Password \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 45
+                }
+              ],
+              "location": "com.Automation.StepDef.LoginSteps.enter_valid_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3231408700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "execute sucessfully.",
+            "match": {
+              "location": "com.Automation.StepDef.LoginSteps.execute_sucessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Validation of Login scenario",
+    "description": "",
+    "id": "validation-of-login-scenario",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/VerifyLogin.feature",
+    "tags": []
+  }
+]
